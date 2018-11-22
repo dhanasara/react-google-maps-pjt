@@ -135,7 +135,8 @@ render the map based on the search query location*/
   };
 
 /*Render main page with Side bar location listing 
-and the Google map including marker for the respective locaiton*/
+and the Google map including marker for the respective locaiton. 
+Here loaded Google map script via React dependent script*/
   render() {
     return (
       
