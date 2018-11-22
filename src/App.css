@@ -1,0 +1,100 @@
+html,
+      body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 100%;
+        position: relative;
+      }
+      input {
+        font-size: 12px;
+      }
+      h1 {
+        color: #000000;
+        font-size: 22px;
+        margin: 0 0 10px 12px;
+        text-align: left;
+      }
+      #root {
+        height: 100%;
+      }
+      
+      #map {
+        bottom:0px;
+        height: 100%;
+        left: 362px;
+        position: absolute;
+        right: 0px;
+      }
+      .options-box {
+        background-color: #DCDCDC;        
+        height: 100%;
+        line-height: 35px;        
+        text-decoration-color: #fff;
+        text-align: left;
+      }
+      
+      ul.location-item-list {
+        list-style-type: none;
+        text-align: left;
+        width: 20%;
+        
+      }    
+     
+
+      .search-location {
+        margin-left: 40px;
+        width: 15%;
+      }
+@media only screen and (min-device-width: 320px) and (max-device-width: 499px) {
+
+  .options-box {
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+
+  #map {
+    left: 113px;
+  }
+
+  h1 {
+    text-align: left;
+    overflow-wrap: break-word;
+    padding: 0px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .search-location{
+    margin-left: 9px;
+    width: 80%;
+    font-size: 8px;
+  }
+
+
+  ul.location-item-list {
+    font-size: 8px;
+    line-height: 20px;
+    float: left;
+    margin-left: -30px;
+    width:  92%;
+  }
+}
+
+@media screen and (min-width: 500px) { 
+  .search-location {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 900px) { 
+  .search-location {        
+        width: 15%;
+      }
+}
